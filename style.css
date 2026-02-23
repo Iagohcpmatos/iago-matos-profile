@@ -94,6 +94,21 @@ section h2 {
   letter-spacing: 0.5px;
 }
 
+/* Tags de habilidades */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tags span {
+  background: #0f172a;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
 /* Links */
 a {
   color: #0f172a;
