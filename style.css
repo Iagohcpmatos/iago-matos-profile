@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f5f5;
+  color: #333;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+/* Header */
+header {
+  background: #0f172a;
+  color: white;
+  padding: 60px 0 40px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.role {
+  color: #94a3b8;
+  margin-top: 8px;
+  font-size: 1.1rem;
+}
+
+nav {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+nav a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* Sections */
+section {
+  background: white;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+section h2 {
+  font-size: 1.3rem;
+  color: #0f172a;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+/* Card */
+.card {
+  padding: 20px;
+  background: #f8fafc;
+  border-radius: 8px;
+  border-left: 4px solid #0f172a;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  color: #0f172a;
+}
+
+.company {
+  display: inline-block;
+  margin: 4px 0 10px;
+  font-size: 0.85rem;
+  color: #64748b;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Links */
+a {
+  color: #0f172a;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 32px;
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
